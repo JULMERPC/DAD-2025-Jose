@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/JoseManuel159/Catalogo_clase.git # ruta del repositorio git
+          uri: https://github.com/JULMERPC/DAD-2025-Jose.git # ruta del repositorio git
           searchPaths: config-data
           default-label: main
 
