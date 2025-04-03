@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ms-catalogo-service
+  profiles:
+    active: development
+  config:
+    import: optional:configserver:http://root:12345@localhost:7070
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 10MB
+      max-request-size: 10MB
